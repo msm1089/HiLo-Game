@@ -47,7 +47,7 @@ jobs:
       - run:
           name: run tests
           command: |
-            . venv/bin/activate
+            . venv
             python test_main.py test
 
       - store_artifacts:
