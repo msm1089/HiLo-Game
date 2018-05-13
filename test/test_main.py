@@ -1,4 +1,4 @@
-import program
+from src import program
 
 
 def test_secret_number_in_range():

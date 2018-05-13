@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      # use `-browsers` prefix for selenium tests, e.g. `3.6.1-browsers`
+      # use `-browsers` prefix for selenium test, e.g. `3.6.1-browsers`
       - image: circleci/python:3.6.5
 
       # Specify service dependencies here if necessary
@@ -39,13 +39,13 @@ jobs:
             - ./venv
           key: v1-dependencies-{{ checksum "requirements.txt" }}
 
-      # run tests!
+      # run test!
       # this example uses Django's built-in test-runner
       # other common Python testing frameworks include pytest and nose
       # https://pytest.org
       # https://nose.readthedocs.io
       - run:
-          name: run tests
+          name: run test
           command: |
             . venv/bin/activate
             py.test tests/test_main.py
