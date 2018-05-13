@@ -13,7 +13,7 @@ def main():
 
 
 def game_loop():
-    secret_number = random.randint(1, 100)
+    secret_number = get_secret_number()
     print("Guess the number!")
 
     while True:
@@ -25,7 +25,11 @@ def game_loop():
             print("That is too high.")
         else:
             print("You got it!!!")
-            break
+
+
+def get_secret_number():
+    secret_number = random.randint(1, 100)
+    return secret_number
 
 
 if __name__ == '__main__':
