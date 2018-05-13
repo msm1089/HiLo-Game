@@ -48,7 +48,7 @@ jobs:
           name: run tests
           command: |
             . /tests
-            python test_main.py test
+            pytest test_main.py
 
       - store_artifacts:
           path: test-reports
