@@ -45,10 +45,10 @@ jobs:
       # https://pytest.org
       # https://nose.readthedocs.io
       - run:
-          name: run test
+          name: run tests
           command: |
             . venv/bin/activate
-            py.test tests/test_main.py
+            py.test test/test_main.py
 
       - store_artifacts:
           path: test-reports
