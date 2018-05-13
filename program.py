@@ -1,11 +1,10 @@
 import random
 
+secret_number = random.randint(1, 100)
+
 
 def main():
-    SecretNumber = random.randint(1, 100)
-
-    while True:
-        print("Guess the number!")
+    print("Guess the number!")
 
 
 if __name__ == '__main__':
