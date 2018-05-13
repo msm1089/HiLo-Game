@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+# HiLo Game
 
-You can use the [editor on GitHub](https://github.com/msm1089/HiLo-Game/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a repo I am using to learn more about git flow, testing and continuous integration.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## What am I using?
 
-### Markdown
+- I am using Python 3 with PyCharm as my IDE.
+- [CircleCI](https://circleci.com/gh/msm1089) is used for CI.
+- Pytest is used for testing.
+- May also use GitKraken to try it out, but thinking it is unnecessary as PyCharm seems to integrate well!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Why am I doing this?
 
-```markdown
-Syntax highlighted code block
+1. I feel I need more hands on experience having recently got my first job as a Developer :)
+2. I think I will never have even the chance of making anything **epic** unless I skill up on the 'chore' side of things!
+3. I got a load of dev tools and some access to some courses for python via a [Humble Bundle](https://www.humblebundle.com/monthly?refc=f6lAtW) pack. I guess I should make use of them ;)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/msm1089/HiLo-Game/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Page uses [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
